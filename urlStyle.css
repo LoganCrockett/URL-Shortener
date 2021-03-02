@@ -1,0 +1,30 @@
+/*
+Created by: Logan Crockett
+On: 8/16/20
+Purpose: Provides styling for urlShortner.html
+*/
+
+h1 {
+    background-color: lightskyblue;
+    /*Will keep the H1 Head up towards the top of the page*/
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+
+    text-align: center;
+    font-style: italic;
+}
+
+legend {
+    font-style: italic;
+}
+
+fieldset {
+    min-width: 10vw;
+    max-width: 45vw;
+    margin-left: 10px;
+}
+
+input {
+    margin-top: 2px;
+}

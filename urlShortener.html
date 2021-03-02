@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+    Created by: Logan Crockett
+    On: 8/13/20
+    Purpose: To shorten a URL <inputted from the user, and add that URL to a database, as well as give the user that link
+-->
+<html lang="en">
+
+    <head>
+        <title>URL Shortner</title>
+        <meta charset="utf-8">
+        <link href="./urlStyle.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <h1>Shorten any URL for free</h1>
+
+        <p>Are you tired of trying to remember long URL's? Well, look no further! At URLShortner, we take 
+            and create small, easy to remember URL's that never expire.
+        </p>
+
+        <!--Add an input field for a URL to shorten-->
+        <form action="./urlShortener.php" method="POST">
+            <fieldset>
+                <legend>URL Shortner</legend>
+                <label for="longURL">URL:</label>
+                <input type="url" id="longURL" name="longURL" placeholder="Enter a URL to Convert" required/>
+            </fieldset>
+
+            <!--Add a submit button and a Reset Button-->
+            <input type="submit" value="Shorten">
+            <input type="reset" value="Clear Input Field">
+        </form>
+
+    </body>
+
+</html>
