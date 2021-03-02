@@ -136,19 +136,19 @@ function addURL($connection,$longURL) {
 
     if (strlen($longURL) < 25) {
         for ($i = 0; $i < 6; $i++) {
-            $shortURL .= $acceptableCharacters[rand(0,strlen($acceptableCharacters))];
+            $shortURL .= $acceptableCharacters[rand(0,strlen($acceptableCharacters)-1)];
         }
     }
 
     else if (strlen($longURL) < 50){
         for ($i = 0; $i < 12; $i++) {
-            $shortURL .= $acceptableCharacters[rand(0,strlen($acceptableCharacters))];
+            $shortURL .= $acceptableCharacters[rand(0,strlen($acceptableCharacters)-1)];
         }
     }
 
     else {
         for ($i = 0; $i < 18; $i++) {
-            $shortURL .= $acceptableCharacters[rand(0,strlen($acceptableCharacters))];
+            $shortURL .= $acceptableCharacters[rand(0,strlen($acceptableCharacters)-1)];
         }
     }
 
