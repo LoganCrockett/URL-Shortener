@@ -14,6 +14,6 @@ I created this project because I wanted to get an idea of how a URL shortner web
 8. Select the **shortUrl.sql** file and click **Go** and the bottom of the page.
 9. Once that finishes importing, click on the Short URL Table name on the left column, not the plus icon.
 10. Click Import again. Select **newURLAccessUser.sql** and click **Go** at the bottom of the page.
-11. Once that it imported, enter this URL in the address bar and hit enter: **localhost:/URL Shortner/urlShortner.html**
+11. Once that it imported, enter this URL in the address bar and hit enter: **localhost/URL Shortner/urlShortner.html**
   - Note: If you used a different folder name, then use that name instead of what I have
 12. Congrats!! It should now work!!
